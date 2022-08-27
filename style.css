@@ -1,0 +1,116 @@
+*{
+    font-family:'Lucida Console',monospace,Courier,'Courier New';
+    /* margin: 0 !important;
+    padding: 0 !important; */
+}
+
+#nav{
+    color: white;
+    background: #832D82;
+    border: 5px solid #14141471;
+    border-radius: 5px;
+}
+
+
+#nav img {
+    width: 70px;
+    height: 70px;
+}
+
+#nav ul li a {
+    color: white
+}
+
+.navbar-nav a:hover, .navbar-nav a:active{   
+    font-size:larger;     
+}
+
+#menu2{
+    background: rgb(133 46 130 / 78%);
+    border: 5px solid #14141471;
+    border-radius: 5px;
+}
+
+#menu2 a:hover, #menu2 a:active{
+    
+    background-color: transparent;
+    font-size:large;
+}
+
+
+
+#nav .media ul{
+
+    list-style:none;
+    text-align: center;  
+}
+
+#nav .media li{
+    display: inline;
+    margin-right: 2px;
+
+}
+
+#nav .media img{
+    width: 25px;
+    height: 25px;
+  
+}
+
+#nav .media a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+nav img:hover, .nav img:focus{
+   
+  transform:scale(1.3);
+}
+
+/* para que desaparescan maargen iz y derecho y en footer agrege pagin top en -18 px*/
+.col-12{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+#footer {
+    color: rgb(248, 242, 242);
+    background: #832D82;
+    border: 5px solid #14141471;
+    border-radius: 5px;
+    margin-top: -17px;
+}
+
+#footer ul li img{
+    width: 35px;
+    height: 35px;
+    
+} 
+
+
+#footer  a{
+text-decoration: none;
+color: white;
+}
+
+#footer img:hover, img:focus{
+    transform: scale(1.3);
+   
+}
+
+
+footer .italic {
+    font-style: italic;
+    font-size: 15px;
+}
+.col .name{
+    font-size: 14px;
+} 
+
+footer p{
+    line-height: 1;
+}
+
